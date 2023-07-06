@@ -21,10 +21,20 @@
     margin-left: 600px;
     justify-content: center;
     align-items: center;
+    
   }
   .login {
     margin-left: 20px;
+    border: white solid;
+    
   }
+  @media only screen and (max-width: 600px) {
+    .login {
+      width: 70%;
+    }
+
+  }
+
   .logo {
     display: flex;
     justify-content: flex-end;
@@ -33,7 +43,7 @@
     align-items: center;
   }
   body {
-    background-image: url(/Images/LandingPage.jpg)
+    background-image: url(/Images/LandingPage.jpg); 
   }
   .logoimg {
     width: 100px;
@@ -193,7 +203,7 @@
     justify-content: center;
     display: flex;
     border-radius: 25px;
-    background-image: url(/Images/blue-wavy-background.jpg);
+    background-image: url(/Images/blue-wavy-background.jpg); 
   }
   .section-2 {
     height: 400px;
@@ -239,7 +249,7 @@
     background-color: rgb(2, 53, 95);
     color: white;
     border-radius: 25px;
-    background-image: url(/Images/blue-wavy-background.jpg);
+    background-image: url(/Images/blue-wavy-background.jpg); 
     background-size: 5500px 1500px;
   }
   .section-4 {
