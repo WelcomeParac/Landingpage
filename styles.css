@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+  }
+  .menu-container {
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    width: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .links {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+  .login {
+    margin-left: 20px;
+  }
+  .logo {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    background-image: url(/Images/LandingPage.jpg)
+  }
+  .logoimg {
+    width: 100px;
+    height: auto;
+  }
+  .section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+  .left-content, .right-content {
+    border-radius: 25px;
+  }
+  .left-content {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 400px;
+  }
+  .signupbtn1, .signupbtn2, .signupbtn3 {
+    appearance: button;
+    background-color: #1652F0;
+    border: 1px solid #1652F0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 5px 10px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+  }
+  .signupbtn1:disabled, .signupbtn2:disabled, .signupbtn3:disabled {
+    opacity: .5;
+  }
+  .signupbtn1:focus, .signupbtn2:focus, .signupbtn3:focus {
+    outline: 0;
+  }
+  .signupbtn1:hover, .signupbtn2:hover, .signupbtn3:hover {
+    background-color: #0A46E4;
+    border-color: #0A46E4;
+  }
+  .signupbtn1:active, .signupbtn2:active, .signupbtn3:active {
+    background-color: #0039D7;
+    border-color: #0039D7;
+  }
+  .signupbtn1:active, .signupbtn2:active, .signupbtn3:active {
+    background-color: rgb(18, 102, 172);
+    border-color: rgb(18, 102, 172);
+  }
+  .right-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 400px;
+  }
+  .imgplaceholder {
+    width: 400px;
+    height: 225px;
+    border-radius: 30px;
+  }
+  .section-1 {
+    height: 200px;
+    justify-content: space-evenly;
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signupbtn, .section-4-signup {
+    appearance: button;
+    background-color: #1652F0;
+    border: 1px solid #1652F0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    overflow: visible;
+    padding: 5px 5px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all 80ms ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-weight: bold;
+  }
+  .signupbtn:disabled, .section-4-signup:disabled {
+    opacity: .5;
+  }
+  .signupbtn:focus, .section-4-signup:focus {
+    outline: 0;
+  }
+  .signupbtn:hover, .section-4-signup:hover {
+    background-color: #0A46E4;
+    border-color: #0A46E4;
+  }
+  .signupbtn:active, .section-4-signup:active {
+    background-color: #0039D7;
+    border-color: #0039D7;
+  }
+  .signupbtn:active, .section-4-signup:active {
+    background-color: rgb(18, 102, 172);
+    border-color: rgb(18, 102, 172);
+  }
+  .top-content-text {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: white
+  }
+  .hero-subtext {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hero {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+  }
+  .section-1 {
+    margin-top: -1px;
+    height: 400px;
+  }
+  .content-squares {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .top-content {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .square-one, .square-two, .square-three, .square-four {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+    background-image: url(/Images/blue-wavy-background.jpg);
+  }
+  .section-2 {
+    height: 400px;
+  }
+  .square-text-content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .square-text-one, .square-text-two, .square-text-three, .square-text-four {
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+  }
+  .section-3 {
+    width: 1280px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .section-4-content-one, .section-4-subtext {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+  }
+  .section-3-content {
+    width: 300px;
+    height: 400px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+  }
+  .section-4-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 900px;
+    height: 100px;
+    background-color: rgb(2, 53, 95);
+    color: white;
+    border-radius: 25px;
+    background-image: url(/Images/blue-wavy-background.jpg);
+    background-size: 5500px 1500px;
+  }
+  .section-4 {
+    width: 1280px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+  .signupbtn {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+  }
