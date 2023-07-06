@@ -211,8 +211,7 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
   }
-  .section-3 {
-    width: 1920px;
+  .section-3 { 
     height: 300px;
     display: flex;
     justify-content: center;
@@ -244,7 +243,6 @@
     background-size: 5500px 1500px;
   }
   .section-4 {
-    width: 1920px;
     height: 300px;
     display: flex;
     justify-content: center;
