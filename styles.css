@@ -8,8 +8,7 @@
     justify-content: center;
     align-items: center;
   }
-  .menu {
-    width: 2000px;
+   .menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -18,13 +17,14 @@
   .links {
     display: flex;
     justify-content: flex-end;
-    margin-left: 600px;
+    margin-left: 125%;
     justify-content: center;
     align-items: center;
     
   }
   .login {
     margin-left: 20px;
+    
     
   }
   @media only screen and (min-width: 600px) {
@@ -47,6 +47,7 @@
   .logoimg {
     width: 100px;
     height: auto;
+    justify-content: flex-start;
   }
   .section-1 {
     display: flex;
@@ -82,6 +83,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     font-weight: bold;
+    width: 100px
   }
   .signupbtn1:disabled, .signupbtn2:disabled, .signupbtn3:disabled {
     opacity: .5;
@@ -272,4 +274,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Work Sans', sans-serif;
+  }
+  .signupbtn2 {
+      width: 
   }
